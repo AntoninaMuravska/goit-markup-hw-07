@@ -1,0 +1,38 @@
+.feature-section {
+  padding-top: 94px;
+}
+
+.features-list {
+  display: flex;
+
+  &-item {
+    width: calc((100% - 90px) / 4);
+  }
+
+  &-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+}
+
+.features-textbox {
+  padding-top: 30px;
+}
+
+.features-icon-container {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: $buttonColor;
+}
+
+.features-description {
+  margin-top: 0;
+  margin-bottom: 0;
+}
