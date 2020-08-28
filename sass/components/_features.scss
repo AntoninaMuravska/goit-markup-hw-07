@@ -25,10 +25,9 @@
 }
 
 .features-icon-container {
-  display: flex;
+  @extend %centeredFlex;
   height: 120px;
-  justify-content: center;
-  align-items: center;
+
   background-color: $buttonColor;
 }
 
